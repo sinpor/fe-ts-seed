@@ -1,0 +1,20 @@
+{
+  "name": "fe-ts-seed",
+  "version": "0.0.1",
+  "packageManager": "pnpm@9.4.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "main": "async.js",
+  "scripts": {
+    "lint:fix": "eslint . --fix",
+    "taze": "taze latest -w & pnpm i"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.21.2",
+    "@types/node": "^20.14.9",
+    "eslint": "9.5.0",
+    "taze": "^0.14.2",
+    "typescript": "^5.5.3"
+  }
+}
