@@ -1,0 +1,41 @@
+name: Update Dependencies
+
+on:
+  schedule:
+    # 每周一三日的 UTC 时间 1:00 运行（根据需要调整）
+    - cron: '0 1 * * 0,1,3'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update-dependencies:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Enable corepack
+      run: corepack enable
+
+    - name: Install dependencies
+      run: pnpm install
+
+    - name: Update dependencies
+      run: pnpm taze
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "mymail33333@163.com"
+        git config --local user.name "Pluto"
+        git add .
+        git diff --quiet && git diff --staged --quiet || git commit -am "chore: update dependencies"
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ github.ref }}
