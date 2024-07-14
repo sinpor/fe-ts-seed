@@ -11,10 +11,10 @@
     "taze": "taze latest -w & pnpm i"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.22.0",
+    "@antfu/eslint-config": "^2.22.2",
     "@types/node": "^20.14.10",
     "eslint": "9.5.0",
-    "taze": "^0.14.2",
+    "taze": "^0.15.0",
     "typescript": "^5.5.3"
   }
 }
