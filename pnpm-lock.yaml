@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       '@antfu/eslint-config':
-        specifier: ^2.22.4
+        specifier: ^2.23.0
         version: 2.23.0(@vue/compiler-sfc@3.4.31)(eslint@9.5.0)(typescript@5.5.3)
       '@types/node':
         specifier: ^20.14.11
@@ -18,8 +18,8 @@ importers:
         specifier: 9.5.0
         version: 9.5.0
       taze:
-        specifier: ^0.15.2
-        version: 0.15.2
+        specifier: ^0.16.1
+        version: 0.16.1
       typescript:
         specifier: ^5.5.3
         version: 5.5.3
@@ -1838,8 +1838,8 @@ packages:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
 
-  taze@0.15.2:
-    resolution: {integrity: sha512-Zeq/67Wv1FTrismdEANsk7vu6vDm/2GHfZvxYdLDULqTy2tQNOCTbfd4c+kGW+R5XTLUR/0xSJTPl3xQgsr6HA==}
+  taze@0.16.1:
+    resolution: {integrity: sha512-YolslEZ6KwFBpFbzdxe9JtKz3kypN2dHEPQv7Wpoq72koO9vaPUk4H6SP1kWHpLRmFI2badf24pJcgZWCgsBjA==}
     hasBin: true
 
   text-table@0.2.0:
@@ -3874,7 +3874,7 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  taze@0.15.2:
+  taze@0.16.1:
     dependencies:
       '@antfu/ni': 0.22.0
       '@jsdevtools/ez-spawn': 3.0.4

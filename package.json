@@ -11,7 +11,7 @@
     "taze": "taze latest -w & pnpm i"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.23.0",
+    "@antfu/eslint-config": "^2.23.1",
     "@types/node": "^20.14.11",
     "eslint": "9.5.0",
     "taze": "^0.16.1",
