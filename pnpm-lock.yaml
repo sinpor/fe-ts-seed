@@ -9,10 +9,10 @@ importers:
   .:
     devDependencies:
       '@antfu/eslint-config':
-        specifier: ^2.25.2
+        specifier: ^2.26.0
         version: 2.26.0(@typescript-eslint/utils@8.1.0(eslint@9.5.0)(typescript@5.5.4))(@vue/compiler-sfc@3.4.31)(eslint@9.5.0)(typescript@5.5.4)
       '@types/node':
-        specifier: ^22.3.0
+        specifier: ^22.4.0
         version: 22.4.0
       eslint:
         specifier: 9.5.0
@@ -2713,7 +2713,7 @@ snapshots:
       '@eslint-community/regexpp': 4.11.0
       comment-parser: 1.4.1
       eslint: 9.5.0
-      jsdoc-type-pratt-parser: 4.0.0
+      jsdoc-type-pratt-parser: 4.1.0
       refa: 0.12.1
       regexp-ast-analysis: 0.7.1
       scslre: 0.3.0
