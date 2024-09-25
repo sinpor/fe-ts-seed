@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.7.1",
-    "@types/node": "^22.5.5",
+    "@types/node": "^22.7.0",
     "eslint": "9.5.0",
     "taze": "^0.16.9",
     "typescript": "^5.6.2"
