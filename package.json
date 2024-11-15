@@ -1,7 +1,7 @@
 {
   "name": "fe-ts-seed",
   "version": "0.0.1",
-  "packageManager": "pnpm@9.12.3",
+  "packageManager": "pnpm@9.13.2",
   "description": "",
   "author": "",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "taze": "taze latest -w & pnpm i"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.8.0",
+    "@antfu/eslint-config": "^3.9.1",
     "@types/node": "^22.9.0",
     "eslint": "9.5.0",
     "taze": "^0.18.0",
