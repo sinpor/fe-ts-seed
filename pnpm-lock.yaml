@@ -12,7 +12,7 @@ importers:
         specifier: ^4.12.0
         version: 4.12.0(@typescript-eslint/utils@8.29.1(eslint@9.5.0)(typescript@5.8.3))(@vue/compiler-sfc@3.4.31)(eslint@9.5.0)(typescript@5.8.3)(vitest@3.1.1(@types/debug@4.1.12)(@types/node@22.15.2)(jiti@2.4.2)(yaml@2.7.0))
       '@types/node':
-        specifier: ^22.15.0
+        specifier: ^22.15.2
         version: 22.15.2
       eslint:
         specifier: 9.5.0
