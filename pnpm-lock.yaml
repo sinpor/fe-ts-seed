@@ -18,8 +18,8 @@ importers:
         specifier: 9.5.0
         version: 9.5.0
       taze:
-        specifier: ^19.3.0
-        version: 19.3.0
+        specifier: ^19.4.0
+        version: 19.5.0
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
@@ -1537,9 +1537,6 @@ packages:
   quansync@0.2.11:
     resolution: {integrity: sha512-AifT7QEbW9Nri4tAwR5M/uzpBuqfZf+zwaEM/QkzEjj7NBuFD2rBuy0K3dE+8wltbezDV7JMA0WfnCPYRSYbXA==}
 
-  quansync@0.2.8:
-    resolution: {integrity: sha512-4+saucphJMazjt7iOM27mbFCk+D9dd/zmgMDCzRZ8MEoBfYp7lAvoN38et/phRQF6wOPMy/OROBGgoWeSKyluA==}
-
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
@@ -1652,8 +1649,8 @@ packages:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
     engines: {node: '>=6'}
 
-  taze@19.3.0:
-    resolution: {integrity: sha512-q7UeTNrhmIskz23o5l5BGoubYFsBhh+FpNZ75LFimdqnv6OC8rO0mMUXr9+ul4ViA7qr7/xVT15GBX8caDKwHQ==}
+  taze@19.5.0:
+    resolution: {integrity: sha512-4Rjy23i2bcFWM74rIW1KtsIul57XchYy3U7SXf6JUIveqcllI4tS3cgPwQKnq8X7as0Up9TWBDpD/sBhfB8vSg==}
     hasBin: true
 
   text-table@0.2.0:
@@ -3068,7 +3065,7 @@ snapshots:
     dependencies:
       mlly: 1.7.4
       pkg-types: 2.1.0
-      quansync: 0.2.8
+      quansync: 0.2.11
 
   locate-path@6.0.0:
     dependencies:
@@ -3540,8 +3537,6 @@ snapshots:
 
   quansync@0.2.11: {}
 
-  quansync@0.2.8: {}
-
   queue-microtask@1.2.3: {}
 
   refa@0.12.1:
@@ -3659,7 +3654,7 @@ snapshots:
 
   tapable@2.2.1: {}
 
-  taze@19.3.0:
+  taze@19.5.0:
     dependencies:
       '@antfu/ni': 25.0.0
       cac: 6.7.14
