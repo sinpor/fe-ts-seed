@@ -18,8 +18,8 @@ importers:
         specifier: 9.5.0
         version: 9.5.0
       taze:
-        specifier: ^19.5.0
-        version: 19.5.0
+        specifier: ^19.6.0
+        version: 19.6.0
       typescript:
         specifier: ^5.9.2
         version: 5.9.2
@@ -1673,8 +1673,8 @@ packages:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
     engines: {node: '>=6'}
 
-  taze@19.5.0:
-    resolution: {integrity: sha512-4Rjy23i2bcFWM74rIW1KtsIul57XchYy3U7SXf6JUIveqcllI4tS3cgPwQKnq8X7as0Up9TWBDpD/sBhfB8vSg==}
+  taze@19.6.0:
+    resolution: {integrity: sha512-hQGQH4WVtV9BqsZbrGzOmOP4NdWqie948BnqtH+NPwdVt5mI+qALVRDvgzgdf+neN7bcrVVpV4ToyFkxg0U0xQ==}
     hasBin: true
 
   text-table@0.2.0:
@@ -3721,7 +3721,7 @@ snapshots:
 
   tapable@2.2.1: {}
 
-  taze@19.5.0:
+  taze@19.6.0:
     dependencies:
       '@antfu/ni': 25.0.0
       cac: 6.7.14
