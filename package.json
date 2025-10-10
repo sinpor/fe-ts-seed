@@ -1,7 +1,7 @@
 {
   "name": "fe-ts-seed",
   "version": "0.0.1",
-  "packageManager": "pnpm@10.18.1",
+  "packageManager": "pnpm@10.18.2",
   "description": "",
   "author": "",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^5.4.1",
-    "@types/node": "^24.7.0",
+    "@types/node": "^24.7.1",
     "eslint": "9.5.0",
     "taze": "^19.7.0",
     "typescript": "^5.9.3"
